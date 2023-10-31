@@ -126,6 +126,12 @@
             rr:reference "http://artwork.org/artwork/{id}/dimensions"; ];
     ].
 
+    rr:predicateObjectMap [
+        rr:predicate art:sameAsDbpediaArtist ;
+        rr:object [ 
+            rr:reference "same_as_dbpedia_artist";
+            rr:datatype xsd:anyURI ];
+    ].
 
 
 <#DimensionTriplesMap>
